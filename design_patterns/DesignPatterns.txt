@@ -1,0 +1,22 @@
+
+****************************************************************************************************************************************************************************************
+1.) Strategic Pattern : 
+
+*)put the common functionality in a base class and make all the sub classes extend the base class.
+*)for behaviour which will vary from one class, define an interface corresponding to the behavior and the class implementing the interface should provide the concrete implementation.
+	e.g: Create an interface fly. Now the classess implementing the interface like crow, duck should provide the implementation of the fly method.
+
+	bottom line: 
+
+****************************************************************************************************************************************************************************************
+
+****************************************************************************************************************************************************************************************
+2.) Observer pattern:
+
+*) This pattern is similar to that of a newspaper subscription. As long as subscribed you would get the  newspaper(updates).
+
+implemnetation:
+
+1.) interface for subject which contains method to register unregister and notify observers.
+2.) interface for observer which contains method to update the observers.
+3.) class implementing subject interface (ex WeatherData) to provide 

@@ -1,0 +1,29 @@
+Creating threads.
+Understanding Mutexes.
+InterThread communications and signals.
+Thread pools.
+
+
+
+MultiTasking:
+
+Running Several process on the same machine. Each Could process without any User help and can be independent of one another.
+e.x : Program or application, tools.
+	--> Use segemnation for each process.
+
+MultiThreading:
+
+Running Several Threads with in the same process.
+These Threads share memory and resources. Part of the same program.
+
+Threads are light weight compared to process.
+
+
+Concurrency:
+
+When a task is broken down into smaller pices which can run simultaneosly we are said to achieve concurrency.
+
+	Run simulataneosuly :
+	-- Taks (process ) in multi tasking environment.
+	-- Thread in multiThread manner
+	-- Distribution of work across a grid or cloud.	

@@ -1,0 +1,10 @@
+event --> Action Creator --> return an action --> action sent to all reducers --> corresponding reducer pick it to get the new state.
+
+
+
+Challenges:
+
+1.) make ajax calls.
+2.) integrating with charts.
+3.) redux application where state changes significantly.
+4.) 
