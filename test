@@ -1,0 +1,43 @@
+html:
+
+<div id="header">Click me to toggle class</div>
+
+JS:
+$("#header").click(function () {
+var that = this;
+      $(that).toggleClass("blink_me");
+      setTimeout(function(){$(that).toggleClass("blink_me");}, 2000);
+    });
+    
+
+
+css:
+
+#header {
+    background: red;
+    padding: 10px 0;
+    position: relative;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+    left:0;
+}
+#header.transition {
+    background: green;
+    left: 50px;
+}
+
+#header1.test{
+  background: blue;
+  left: 50px
+}
+
+
+.blink_me {
+  animation: blinker 1s linear infinite;
+  
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; 	
